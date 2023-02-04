@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibOperacion", "LibOperacion\LibOperacion.csproj", "{CEFFDC37-DB69-46F7-BA47-779C8B585E13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEFFDC37-DB69-46F7-BA47-779C8B585E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFFDC37-DB69-46F7-BA47-779C8B585E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFFDC37-DB69-46F7-BA47-779C8B585E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFFDC37-DB69-46F7-BA47-779C8B585E13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20886EDB-005B-470D-97ED-587E210BE7C5}
+	EndGlobalSection
+EndGlobal
