@@ -10,37 +10,29 @@ namespace OperacionVista
         public Suma()
         {
             InitializeComponent();
-            
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
+           
+        }       
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-                        
+            //Obtener valores a enviar
+            double n1 = Convert.ToDouble(txtNum1.Text);
+            double n2 = Convert.ToDouble(txtNum2.Text);
+            this.objO.SetNumber1= n1;
+            this.objO.SetNumber2 = n2;
+            if (this.objO.Calculate())
+            {
+                txtRes.Text = this.objO.GetSuma.ToString();
+                return;
+            }
+            MessageBox.Show(this.objO.GetError["data"]);
+            return;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtNum1.Text = "";
+            txtNum2.Text = "";
+            txtRes.Text = "";
         }
     }
 }

@@ -30,24 +30,15 @@ namespace OperacionVista
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Suma));
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.txtNum1 = new System.Windows.Forms.TextBox();
             this.txtNum2 = new System.Windows.Forms.TextBox();
             this.txtRes = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "PRIMER NUMERO:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -57,7 +48,6 @@ namespace OperacionVista
             this.label2.Size = new System.Drawing.Size(115, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "SEGUNDO NUMERO:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -67,7 +57,6 @@ namespace OperacionVista
             this.label3.Size = new System.Drawing.Size(76, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "RESULTADO:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // btnCalcular
             // 
@@ -87,7 +76,6 @@ namespace OperacionVista
             this.txtNum1.Size = new System.Drawing.Size(100, 20);
             this.txtNum1.TabIndex = 4;
             this.txtNum1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtNum1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txtNum2
             // 
@@ -101,15 +89,38 @@ namespace OperacionVista
             // 
             this.txtRes.Location = new System.Drawing.Point(171, 110);
             this.txtRes.Name = "txtRes";
+            this.txtRes.ReadOnly = true;
             this.txtRes.Size = new System.Drawing.Size(100, 20);
             this.txtRes.TabIndex = 6;
             this.txtRes.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(47, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(103, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "PRIMER NUMERO:";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(130, 164);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Borrar";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.UseMnemonic = false;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Suma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(325, 208);
+            this.ClientSize = new System.Drawing.Size(314, 201);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtRes);
             this.Controls.Add(this.txtNum2);
             this.Controls.Add(this.txtNum1);
@@ -121,21 +132,20 @@ namespace OperacionVista
             this.MaximizeBox = false;
             this.Name = "Suma";
             this.Text = "Suma";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.TextBox txtNum1;
         private System.Windows.Forms.TextBox txtNum2;
         private System.Windows.Forms.TextBox txtRes;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

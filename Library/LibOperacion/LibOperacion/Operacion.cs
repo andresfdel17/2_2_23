@@ -16,19 +16,18 @@ namespace LibOperacion
         {
             { "isError", false },
             { "data", "" },
-            { "timestamp", new DateTime().ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:sszz") }
+            { "timestamp", new DateTime().ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ss") }
         };
         #endregion
         #region METODOS PUBLICOS
         public Operacion()
         {}
-        public bool Calculate(double number1, double number2)
+        public bool Calculate()
         {
-            this.num1 = number1;
-            this.num2 = number2;
+           
             if (this.Validate())
             {
-                this.resultado = number1 + number2;
+                this.resultado = this.num1 + this.num2;
                 return true;
             }
             return false;
