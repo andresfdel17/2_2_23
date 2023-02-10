@@ -2,9 +2,9 @@
 
 ## 10 de febrero de 2023
 
--Soluciones
-LibNomina
-NominaVista
+#### Soluciones <br/>
+LibNomina <br/>
+NominaVista <br/>
 
 Ejercicio de nomina terminado, funciona correctamente
 
