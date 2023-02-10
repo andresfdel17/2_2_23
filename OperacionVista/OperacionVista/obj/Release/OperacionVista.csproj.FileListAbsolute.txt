@@ -1,0 +1,14 @@
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\bin\Release\OperacionVista.exe.config
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\bin\Release\OperacionVista.exe
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\bin\Release\OperacionVista.pdb
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\bin\Release\LibOperacion.dll
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\bin\Release\LibOperacion.pdb
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\obj\Release\OperacionVista.csproj.AssemblyReference.cache
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\obj\Release\OperacionVista.csproj.SuggestedBindingRedirects.cache
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\obj\Release\OperacionVista.Suma.resources
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\obj\Release\OperacionVista.Properties.Resources.resources
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\obj\Release\OperacionVista.csproj.GenerateResource.cache
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\obj\Release\OperacionVista.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\obj\Release\OperacionVista.csproj.CopyComplete
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\obj\Release\OperacionVista.exe
+C:\Users\SENA\Documents\AFD\C#\OperacionVista\OperacionVista\obj\Release\OperacionVista.pdb
