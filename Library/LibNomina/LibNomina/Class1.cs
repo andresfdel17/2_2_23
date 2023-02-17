@@ -8,24 +8,41 @@
         private double sueldo = 0;
         private string error = "";
         #endregion
-        
+
         #region METODOS PUBLICOS
         public NominaClass() { }
         public bool Calculate()
         {
             try
             {
-                this.sueldo = (this.salary / 30) * this.days;
-                return true;
-            } catch (Exception e)
+                if (this.validate())
+                {
+                    this.sueldo = (this.salary / 30) * this.days;
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception e)
             {
                 this.error = e.Message;
                 return false;
             }
         }
         #endregion
+        #region METODOS PRIVADOS
+        private bool validate()
+        {
+            if (this.days < 0 || this.days > 30)
+            {
+                this.error = "Los dias no pueden ser menores a 0 ni mayores a 30 dias";
+                return false;
+            }
+            return true;
+        }
+        #endregion
         #region PROPIEDADES
-        public double setSalary{
+        public double setSalary
+        {
             set { salary = value; }
         }
         public int setDays
