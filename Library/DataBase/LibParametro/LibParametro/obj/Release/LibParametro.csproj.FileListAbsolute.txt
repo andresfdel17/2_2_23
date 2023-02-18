@@ -12,3 +12,9 @@ C:\Users\ADALCAR26\Desktop\ejercicio de inventario\LibParametro\LibParametro\bin
 C:\Users\ADALCAR26\Desktop\ejercicio de inventario\LibParametro\LibParametro\bin\Release\LibParametro.pdb
 C:\Users\ADALCAR26\Desktop\ejercicio de inventario\LibParametro\LibParametro\obj\Release\LibParametro.dll
 C:\Users\ADALCAR26\Desktop\ejercicio de inventario\LibParametro\LibParametro\obj\Release\LibParametro.pdb
+C:\Users\SENA\Documents\AFD\C#\Library\DataBase\LibParametro\LibParametro\bin\Release\LibParametro.dll
+C:\Users\SENA\Documents\AFD\C#\Library\DataBase\LibParametro\LibParametro\bin\Release\LibParametro.pdb
+C:\Users\SENA\Documents\AFD\C#\Library\DataBase\LibParametro\LibParametro\obj\Release\LibParametro.csproj.AssemblyReference.cache
+C:\Users\SENA\Documents\AFD\C#\Library\DataBase\LibParametro\LibParametro\obj\Release\LibParametro.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Documents\AFD\C#\Library\DataBase\LibParametro\LibParametro\obj\Release\LibParametro.dll
+C:\Users\SENA\Documents\AFD\C#\Library\DataBase\LibParametro\LibParametro\obj\Release\LibParametro.pdb

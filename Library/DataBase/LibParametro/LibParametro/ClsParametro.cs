@@ -19,7 +19,7 @@ namespace LibParametro
         private String strCadenaCnx;
         private String strArchivo;
 
-        private XmlDataDocument objDcto;
+        private XmlDocument objDcto;
         private XmlNode objNodo;
         #endregion
 
@@ -29,7 +29,7 @@ namespace LibParametro
         ///</summary>
         public ClsParametro()
         {
-            objDcto = new XmlDataDocument();
+            objDcto = new XmlDocument();
             strArchivo = "";
         }
         #endregion
