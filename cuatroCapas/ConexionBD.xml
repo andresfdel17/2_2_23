@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Conexion>
-  <Servidor>(localdb)\MSSQLLocalDB</Servidor>
-  <BaseDatos>DB_Example</BaseDatos>
-  <Usuario></Usuario>
-  <Password></Password>
-</Conexion>
