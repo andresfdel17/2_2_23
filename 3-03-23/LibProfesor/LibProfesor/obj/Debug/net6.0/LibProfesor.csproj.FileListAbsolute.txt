@@ -1,0 +1,17 @@
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\net6.0\LibProfesor.deps.json
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\net6.0\LibProfesor.dll
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\net6.0\LibProfesor.pdb
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\net6.0\LibConexionBD.dll
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\net6.0\LibParametro.dll
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\net6.0\LibConexionBD.pdb
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\net6.0\LibParametro.pdb
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\net6.0\LibProfesor.csproj.AssemblyReference.cache
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\net6.0\LibProfesor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\net6.0\LibProfesor.AssemblyInfoInputs.cache
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\net6.0\LibProfesor.AssemblyInfo.cs
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\net6.0\LibProfesor.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\net6.0\LibProfesor.csproj.CopyComplete
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\net6.0\LibProfesor.dll
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\net6.0\refint\LibProfesor.dll
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\net6.0\LibProfesor.pdb
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\net6.0\ref\LibProfesor.dll
