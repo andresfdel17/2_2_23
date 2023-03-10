@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{46A2417B-EC20-4B70-886E-4BA3B9C7270B}</ProjectGuid>
+    <ProjectGuid>{78193CCC-951B-408E-8DB5-CDB4674EED8C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>VistaProfesor</RootNamespace>
     <AssemblyName>VistaProfesor</AssemblyName>
@@ -12,7 +12,6 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,20 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>VistaProfesor.VProfesor</StartupObject>
+    <StartupObject>VistaProfesor.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LibConexionBD, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\LibProfesor\LibProfesor\bin\Debug\net6.0\LibConexionBD.dll</HintPath>
-    </Reference>
-    <Reference Include="LibParametro, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\LibProfesor\LibProfesor\bin\Debug\net6.0\LibParametro.dll</HintPath>
-    </Reference>
     <Reference Include="LibProfesor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\LibProfesor\LibProfesor\bin\Debug\net6.0\LibProfesor.dll</HintPath>
+      <HintPath>..\..\LibProfesor\LibProfesor\bin\Debug\LibProfesor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,7 +59,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="VProfesor.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -81,8 +72,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Properties\DataSources\LibProfesor.LNProfesor.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

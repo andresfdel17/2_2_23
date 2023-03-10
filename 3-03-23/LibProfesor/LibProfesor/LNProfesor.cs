@@ -1,4 +1,10 @@
-﻿using LibConexionBD;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using LibConexionBD;
+
 namespace LibProfesor
 {
     public class LNProfesor
@@ -27,7 +33,7 @@ namespace LibProfesor
         {
             try
             {
-                ClsConexion? objC = new ClsConexion();
+                ClsConexion objC = new ClsConexion();
                 string query = "execute usp_guardarProf '" + this.id + "','" + this.name + "','" + this.apellido + "'," + this.salario;
                 if (!objC.EjecutarSentencia(query, false))
                 {
@@ -49,7 +55,7 @@ namespace LibProfesor
         {
             try
             {
-                ClsConexion? objC = new ClsConexion();
+                ClsConexion objC = new ClsConexion();
                 string query = "execute usp_editarProf '" + this.id + "','" + this.name + "','" + this.apellido + "'," + this.salario;
                 if (!objC.EjecutarSentencia(query, false))
                 {
@@ -71,7 +77,7 @@ namespace LibProfesor
         {
             try
             {
-                ClsConexion? objC = new ClsConexion();
+                ClsConexion objC = new ClsConexion();
                 string query = "execute usp_eliminarProf '" + this.id + "'";
                 if (!objC.EjecutarSentencia(query, false))
                 {
@@ -92,4 +98,5 @@ namespace LibProfesor
         #endregion
 
     }
+
 }

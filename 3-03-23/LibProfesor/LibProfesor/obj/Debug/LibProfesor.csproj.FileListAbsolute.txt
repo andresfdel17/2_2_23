@@ -1,0 +1,11 @@
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\LibProfesor.dll
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\LibProfesor.pdb
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\LibConexionBD.dll
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\LibParametro.dll
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\LibConexionBD.pdb
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\bin\Debug\LibParametro.pdb
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\LibProfesor.csproj.AssemblyReference.cache
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\LibProfesor.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\LibProfesor.csproj.CopyComplete
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\LibProfesor.dll
+C:\Users\SENA\Documents\AFD\C#\3-03-23\LibProfesor\LibProfesor\obj\Debug\LibProfesor.pdb
