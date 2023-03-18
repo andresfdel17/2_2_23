@@ -51,3 +51,5 @@ else
 begin
 select * from producto where idP=@idP;
 end
+
+execute usp_get_product;

@@ -4,7 +4,9 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using LibConexionBD;
+using LibLlenarGrids;
 
 namespace LibProducto
 {
@@ -99,23 +101,45 @@ namespace LibProducto
                 return false;
             }
         }
-        public bool ListarProducto(bool all = true)
+        public bool ConsultarProducto()
         {
             try
             {
                 ClsConexion objC = new ClsConexion();
-                string query = "execute usp_get_product '" + idP + "'," + all;
-                if (!objC.EjecutarSentencia(query, false))
+                string query = "execute usp_get_product '" + idP + "', 0";
+                if (!objC.Consultar(query, false))
                 {
                     this.error = objC.Error;
                     objC = null;
                     return false;
                 }
+                this.resultado = "Se consiguió el registro correctamente";
                 this.reader = objC.Reader;
                 objC = null;
                 return true;
             }
             catch (Exception ex)
+            {
+                this.error = ex.Message;
+                return false;
+            }
+        }
+        public bool ListarProducto(DataGridView GRWDAtos)
+        {
+            try
+            {
+                ClsLLenarGrids objL = new ClsLLenarGrids();
+                objL.NombreTabla = "producto";
+                objL.SQL = "usp_get_product";
+                if (!objL.LlenarGrid(GRWDAtos))
+                {
+                    this.error = objL.ERROR;
+                    objL = null;
+                    return false;
+                }
+                objL = null;
+                return true;
+            } catch (Exception ex)
             {
                 this.error = ex.Message;
                 return false;
