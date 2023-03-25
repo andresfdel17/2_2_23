@@ -70,7 +70,7 @@ namespace LibEmpleado
             try
             {
                 ClsConexion objC = new ClsConexion();
-                string query = "EXECUTE usp_update_empleado '" + name + "','" + last_name + "','" + email + "','" + phone + "'";
+                string query = "EXECUTE usp_update_empleado " + id + ",'" + name + "','" + last_name + "','" + email + "','" + phone + "'";
                 if (!objC.EjecutarSentencia(query, false))
                 {
                     this.error = objC.Error;
