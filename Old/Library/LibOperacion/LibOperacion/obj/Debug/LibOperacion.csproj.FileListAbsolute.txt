@@ -1,6 +1,0 @@
-C:\Users\SENA\Documents\AFD\C#\Library\LibOperacion\LibOperacion\bin\Debug\LibOperacion.dll
-C:\Users\SENA\Documents\AFD\C#\Library\LibOperacion\LibOperacion\bin\Debug\LibOperacion.pdb
-C:\Users\SENA\Documents\AFD\C#\Library\LibOperacion\LibOperacion\obj\Debug\LibOperacion.csproj.AssemblyReference.cache
-C:\Users\SENA\Documents\AFD\C#\Library\LibOperacion\LibOperacion\obj\Debug\LibOperacion.csproj.CoreCompileInputs.cache
-C:\Users\SENA\Documents\AFD\C#\Library\LibOperacion\LibOperacion\obj\Debug\LibOperacion.dll
-C:\Users\SENA\Documents\AFD\C#\Library\LibOperacion\LibOperacion\obj\Debug\LibOperacion.pdb
