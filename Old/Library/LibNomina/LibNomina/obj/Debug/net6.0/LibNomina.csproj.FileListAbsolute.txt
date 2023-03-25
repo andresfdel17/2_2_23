@@ -1,0 +1,12 @@
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\bin\Debug\net6.0\LibNomina.deps.json
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\bin\Debug\net6.0\LibNomina.dll
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\bin\Debug\net6.0\LibNomina.pdb
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\obj\Debug\net6.0\LibNomina.csproj.AssemblyReference.cache
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\obj\Debug\net6.0\LibNomina.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\obj\Debug\net6.0\LibNomina.AssemblyInfoInputs.cache
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\obj\Debug\net6.0\LibNomina.AssemblyInfo.cs
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\obj\Debug\net6.0\LibNomina.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\obj\Debug\net6.0\LibNomina.dll
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\obj\Debug\net6.0\refint\LibNomina.dll
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\obj\Debug\net6.0\LibNomina.pdb
+C:\Users\SENA\Documents\AFD\C#\Library\LibNomina\LibNomina\obj\Debug\net6.0\ref\LibNomina.dll
