@@ -23,7 +23,7 @@ create table factura (
 	foreign key (id_empleado) references empleado(id)
 );
 --Crear procediemiento guardar en empleado
-create procedure usp_guardar_empleado
+create procedure usp_save_empleado
 @name varchar(50),
 @last_name varchar(50),
 @email varchar(30),
@@ -68,4 +68,51 @@ as
 begin
 	select * from empleado
 end
-	 
+
+-- Crear USP facturas
+
+create procedure usp_save_factura
+@id_empleado int, 
+@cliente varchar(50),
+@nit_cliente varchar(20),
+@producto varchar(50),
+@cantidad int, 
+@valor float
+as
+begin
+insert into factura (id_empleado, cliente, nit_cliente, producto, cantidad, valor)
+values (@id_empleado, @cliente, @nit_cliente, @producto, @cantidad, @valor);
+end
+
+create procedure usp_update_factura
+@id int,
+@id_empleado int, 
+@cliente varchar(50),
+@nit_cliente varchar(20),
+@producto varchar(50),
+@cantidad int, 
+@valor float
+as
+begin
+update factura set id_empleado=@id_empleado, cliente=@cliente, nit_cliente=@nit_cliente, producto=@producto, cantidad=@cantidad, valor=@valor where id=@id;
+end
+
+create procedure usp_delete_factura
+@id int
+as
+begin
+delete from factura where id=@id;
+end
+
+create procedure usp_consultar_factura
+@id int
+as
+begin
+select * from factura where id=@id;
+end
+
+create procedure usp_listar_factura
+as
+begin
+select * from factura;
+end

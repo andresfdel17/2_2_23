@@ -16,6 +16,7 @@ namespace VistaFinal
                 FacturasV emp = FacturasV.ventana_unica();
                 emp.MdiParent = this;
                 emp.WindowState = FormWindowState.Maximized;
+                emp.ShowIcon = false;
                 emp.Show();
                 tssUsuario.Text = "Facturas";
                 emp.BringToFront();
@@ -47,6 +48,7 @@ namespace VistaFinal
                 EmpleadosV emp = EmpleadosV.ventana_unica();
                 emp.MdiParent = this;
                 emp.WindowState = FormWindowState.Maximized;
+                emp.ShowIcon = false;
                 emp.Show();
                 tssUsuario.Text = "Empleados";
                 emp.BringToFront();
