@@ -16,7 +16,7 @@ namespace VistaFinal
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMDI());
+            Application.Run(new Splash());
         }
     }
 }

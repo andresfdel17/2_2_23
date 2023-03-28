@@ -60,7 +60,7 @@
             // EmpleadosM
             // 
             this.EmpleadosM.Name = "EmpleadosM";
-            this.EmpleadosM.Size = new System.Drawing.Size(180, 22);
+            this.EmpleadosM.Size = new System.Drawing.Size(132, 22);
             this.EmpleadosM.Text = "Empleados";
             this.EmpleadosM.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.EmpleadosM.Click += new System.EventHandler(this.Empleados_Click);
@@ -68,7 +68,7 @@
             // Facturas
             // 
             this.Facturas.Name = "Facturas";
-            this.Facturas.Size = new System.Drawing.Size(180, 22);
+            this.Facturas.Size = new System.Drawing.Size(132, 22);
             this.Facturas.Text = "Facturas";
             this.Facturas.Click += new System.EventHandler(this.Facturas_Click);
             // 
@@ -98,6 +98,7 @@
             this.IsMdiContainer = true;
             this.Name = "FormMDI";
             this.Text = "Final";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMDI_FormClosing);
             this.Load += new System.EventHandler(this.FormMDI_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

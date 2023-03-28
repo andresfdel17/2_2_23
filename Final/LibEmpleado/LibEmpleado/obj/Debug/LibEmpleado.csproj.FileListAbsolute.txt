@@ -1,0 +1,13 @@
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\bin\Debug\LibEmpleado.dll
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\bin\Debug\LibEmpleado.pdb
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\bin\Debug\LibConexionBD.dll
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\bin\Debug\LibLlenarGrids.dll
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\bin\Debug\LibParametro.dll
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\bin\Debug\LibConexionBD.pdb
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\bin\Debug\LibLlenarGrids.pdb
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\bin\Debug\LibParametro.pdb
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\obj\Debug\LibEmpleado.csproj.AssemblyReference.cache
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\obj\Debug\LibEmpleado.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\obj\Debug\LibEmpleado.csproj.CopyComplete
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\obj\Debug\LibEmpleado.dll
+C:\Users\SENA\Documents\AFD\C#\Final\LibEmpleado\LibEmpleado\obj\Debug\LibEmpleado.pdb

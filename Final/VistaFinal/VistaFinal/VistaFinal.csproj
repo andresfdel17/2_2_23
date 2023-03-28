@@ -33,6 +33,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LibEmpleado">
+      <HintPath>..\..\LibEmpleado\LibEmpleado\bin\Debug\LibEmpleado.dll</HintPath>
+    </Reference>
+    <Reference Include="LibLlenarGrids, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LibLlenarGrids\LibLlenarGrids\bin\Debug\LibLlenarGrids.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,6 +65,12 @@
     <Compile Include="FacturasV.Designer.cs">
       <DependentUpon>FacturasV.cs</DependentUpon>
     </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
     <Compile Include="Parent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FacturasV.resx">
       <DependentUpon>FacturasV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parent.resx">
       <DependentUpon>Parent.cs</DependentUpon>

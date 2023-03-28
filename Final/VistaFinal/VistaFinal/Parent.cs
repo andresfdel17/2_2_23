@@ -54,5 +54,10 @@ namespace VistaFinal
                 emp.BringToFront();
             }
         }
+
+        private void FormMDI_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
