@@ -13,7 +13,7 @@ namespace VistaFinal
         {
             if (!FormIsOpen("FacturasV"))
             {
-                FacturasV emp = FacturasV.ventana_unica();
+                FacturasV emp = FacturasV.Ventana_unica();
                 emp.MdiParent = this;
                 emp.WindowState = FormWindowState.Maximized;
                 emp.ShowIcon = false;
@@ -45,7 +45,7 @@ namespace VistaFinal
         {
             if (!FormIsOpen("EmpleadosV"))
             {
-                EmpleadosV emp = EmpleadosV.ventana_unica();
+                EmpleadosV emp = EmpleadosV.Ventana_unica();
                 emp.MdiParent = this;
                 emp.WindowState = FormWindowState.Maximized;
                 emp.ShowIcon = false;

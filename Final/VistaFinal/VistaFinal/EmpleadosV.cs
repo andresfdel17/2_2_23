@@ -16,7 +16,7 @@ namespace VistaFinal
     public partial class EmpleadosV : Form
     {
         private static EmpleadosV instancia = null;
-        public static EmpleadosV ventana_unica()
+        public static EmpleadosV Ventana_unica()
         {
             if (instancia == null)
             {

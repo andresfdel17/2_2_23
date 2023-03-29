@@ -13,7 +13,7 @@ namespace VistaFinal
     public partial class FacturasV : Form
     {
         private static FacturasV instancia = null;
-        public static FacturasV ventana_unica()
+        public static FacturasV Ventana_unica()
         {
             if (instancia == null)
             {
