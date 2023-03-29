@@ -36,6 +36,9 @@
     <Reference Include="LibEmpleado">
       <HintPath>..\..\LibEmpleado\LibEmpleado\bin\Debug\LibEmpleado.dll</HintPath>
     </Reference>
+    <Reference Include="LibFactura">
+      <HintPath>..\..\LibFactura\LibFactura\bin\Debug\LibFactura.dll</HintPath>
+    </Reference>
     <Reference Include="LibLlenarGrids, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\LibLlenarGrids\LibLlenarGrids\bin\Debug\LibLlenarGrids.dll</HintPath>

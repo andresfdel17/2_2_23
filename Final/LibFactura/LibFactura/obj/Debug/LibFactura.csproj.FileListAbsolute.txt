@@ -1,0 +1,13 @@
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\bin\Debug\LibFactura.dll
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\bin\Debug\LibFactura.pdb
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\bin\Debug\LibConexionBD.dll
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\bin\Debug\LibLlenarGrids.dll
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\bin\Debug\LibParametro.dll
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\bin\Debug\LibConexionBD.pdb
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\bin\Debug\LibLlenarGrids.pdb
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\bin\Debug\LibParametro.pdb
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\obj\Debug\LibFactura.csproj.AssemblyReference.cache
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\obj\Debug\LibFactura.csproj.CoreCompileInputs.cache
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\obj\Debug\LibFactura.csproj.CopyComplete
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\obj\Debug\LibFactura.dll
+C:\Users\CAMILO\OneDrive\Documentos\2_2_23\Final\LibFactura\LibFactura\obj\Debug\LibFactura.pdb

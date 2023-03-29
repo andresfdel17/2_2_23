@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Conexion>
-  <Servidor>(localdb)\MSSQLLocalDB</Servidor>
+  <!---<Servidor>(localdb)\MSSQLLocalDB</Servidor>-->
+  <Servidor>camilo\SQLEXPRESS</Servidor>
   <BaseDatos>DB_FINAL</BaseDatos>
   <Usuario></Usuario>
   <Password></Password>
